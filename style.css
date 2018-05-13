@@ -1,0 +1,485 @@
+body, html {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+ 
+a:hover {
+    color: white;
+    text-decoration: none;
+    
+
+
+}
+
+ 
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.back {
+  position: fixed;
+  top:20px;
+  left:17px;
+  width:40px;
+  height:40px;
+  transition: width 0.7s, height 0.7s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.back:hover {
+	
+  width:90px;
+  height:90px;
+
+
+}
+
+
+h1 {
+  font-family: "Franklin Gothic", Arial, sans-serif;
+  font-weight: bold;
+  
+  color: white;
+  
+  
+}
+
+
+
+.ice {
+  position: absolute;
+  top: 120px;
+  left: 380px;
+  transition: width 6s, height 6s;
+  transition-timing-function: ease-in-out;
+
+}
+/*mistake lol but looks cool*/
+.ice:hover {
+  top: 800px;
+  left: 340px;
+  width:600px;
+  height:600px;
+
+}
+
+.face{
+  position: absolute;
+  top: 250px;
+  left: 490px;
+  width: 20%;
+  height: 20%;
+  opacity: 1;
+}
+
+.water{
+  position: absolute;
+  top: 470px;
+  left: 260px;
+  opacity: 1;
+  color: white;
+
+}
+
+
+
+.silence{
+  position: absolute;
+  top: 325px;
+  left:315px;
+  font-size: 20px;
+}
+
+
+.isolation{
+  position: absolute;
+  top: 490px;
+  left:775px;
+  font-size: 10px;
+}
+
+
+.space{
+  position: absolute;
+  top: 3px;
+  left:475px;
+  font-size: 40px
+}
+
+/*.temperature{
+  position: absolute;
+  top: 35px;
+  left:655px;
+  font-size: 15px;
+}*/
+
+
+
+.unknown{
+  position: absolute;
+  top: 270px;
+  left:755px;
+  font-size: 6px;
+}
+
+
+
+.text1 {
+	position: absolute;
+	top:600px;
+	left: 460px;
+	font-size: 75px;
+  transition: width 6s, height 6s;
+  transition-timing-function: ease-in-out;
+}
+.text1:hover{
+
+
+  top: 600px;
+  left: 5000px;
+/*  width:600px;
+  height:600px;*/
+
+}
+
+
+
+
+
+
+.face_color{
+  position: absolute;
+  top:70px;
+  left: 375px;
+
+}
+
+.text2 {
+  position: absolute;
+  top:300px;
+  left: 130px;
+  font-size: 50px;
+}
+
+
+.text3 {
+  position: absolute;
+  top:300px;
+  left: 860px;
+  font-size: 50px;
+}
+
+
+
+
+.p2{
+  position: absolute;
+  top:-200px;
+  left: 760px;
+  width: 1000px;
+
+  height:1000px;
+
+  
+
+}
+
+.p3{
+  position: absolute;
+  top:300px;
+  left: 460px;
+  ;
+
+}
+.p1{
+  position: absolute;
+  top:0px;
+  left:350px;
+  width: 300px;
+
+  height:300px;
+ 
+
+}
+
+.t_unknown{
+  position: absolute;
+  top:250px;
+  left:600px;
+}
+
+
+.t_silence{
+  position: absolute;
+  top:600px;
+  left:200px;
+  font-size: 300px;
+}
+-----------------------------------------------------------------------------------
+
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.draggable-image {
+  
+  margin-left: auto;
+  margin-right: auto;
+/*  border: solid green 1px;*/
+}
+
+.draggable-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+.draggable-image.g1{
+  position: relative;
+  width: 35%;
+  top: 115px;
+  
+
+  z-index: 11;
+}
+
+.draggable-image.g2{
+  position: relative;
+  width: 35%;
+  top: -300px;
+  left: -15px;
+  z-index: 10;
+
+}
+
+.draggable-image.g3{
+  position: relative;
+  width: 35%;
+  top: -720px;
+  left: 10px;
+  z-index: 9;
+
+}
+
+.draggable-image.g4{
+  position: relative;
+  width: 35%;
+  top: -1180px;
+  left: 40px;
+  z-index: 8;
+}
+
+.draggable-image.g5{
+  position: relative;
+  width: 35%;
+  top: -1720px;
+  left: 20px;
+ 
+  z-index: 7;
+}
+.draggable-image.g6{
+  position: relative;
+  width: 35%;
+  top: -1980px;
+  left: -20px;
+
+  z-index: 6;
+}
+.draggable-image.g7{
+  position: relative;
+  width: 35%;
+  top: -2480px;
+  left: -40px;
+
+  z-index: 5;
+}
+.draggable-image.g8{
+  position: relative;
+  width: 35%;
+  top: -2980px;
+  left: -60px;
+  z-index: 4;
+}
+.draggable-image.g9{
+  position: relative;
+  width: 35%;
+  top: -4080px;
+  left: 60px;
+
+  z-index: 3;
+}
+.draggable-image.g10{
+  position: relative;
+  width: 35%;
+  top: -3880px;
+  left: 90px;
+  z-index: 2;
+}
+.draggable-image.g11{
+  position: relative;
+   width: 35%;
+  top: -4280px;
+  left: -100px;
+
+  z-index: 1;
+}
+
+
+/*.ice1 {
+  position: absolute;
+  top: 120px;
+  left: 380px;
+  transition: width 6s, height 6s;
+  transition-timing-function: ease-in-out;
+
+}
+/*mistake lol but looks cool*/
+/*.ice1:hover {
+  size: 200%
+
+}
+*/
+
+.ice1 {
+  position: fixed;
+ top: 30;
+    left: 350px;
+  width:80px;
+  height:80px;
+  transition: width 0.7s, height 0.7s;
+  transition-timing-function: ease-out;
+
+}
+
+.ice1:hover {
+  
+  width:2000px;
+  height:2000px;
+}
+
+
+.ice2 {
+  position: fixed;
+  top:00px;
+  left:800px;
+  width:500px;
+  height:500px;
+  transition: width 0.5s, height 0.5s;
+  transition-timing-function: ease-out;
+
+}
+
+.ice2:hover {
+  top:200px;
+left: 300px;
+  width:90px;
+  height:90px;
+}
+
+
+.ice3 {
+  position: fixed;
+  top:100px;
+  left:200px;
+  width:50px;
+  height:50px;
+  transition: width 0.7s, height 0.7s;
+  transition-timing-function: ease-out;
+
+}
+
+.ice3:hover {
+  
+  width:400px;
+  height:400px;
+}
+
+
+.ice4 {
+  position: fixed;
+  top:400px;
+  left:600px;
+  width:150px;
+  height:150px;
+  transition: width 0.7s, height 0.7s;
+  transition-timing-function: ease-out ;
+
+}
+
+.ice4:hover {
+  left:920px;
+  top:120px;
+  width:250px;
+  height:250px;
+}
+
+.ice5{
+    position: fixed;
+    top: 520px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease-out;
+
+}
+.ice5:hover {
+  left:500px;
+  top:50px;
+  width:100px;
+  height:100px;
+}
+
+.ice6 {
+  position: fixed;
+  top:220px;
+  left:350px;
+  width:100px;
+  height:100px;
+  transition: width 0.7s, height 0.7s;
+  transition-timing-function: ease-out;
+
+}
+
+.ice6:hover {
+  
+  width:800px;
+  height:800px;
+}
+.ice7 {
+  position: fixed;
+  top:550px;
+  left:800px;
+  width:100px;
+  height:100px;
+  transition: width 0.4s, height 0.s;
+  transition-timing-function: ease-out ;
+
+}
+
+.ice7:hover {
+  left:300px;
+  top:100px;
+  width:700px;
+  height:700px;
+}
